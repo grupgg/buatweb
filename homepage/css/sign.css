@@ -27,7 +27,15 @@ a:hover {
   box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
   transition: .5s ease;
 }
-
+.form1 {
+  padding: 40px;
+  max-width: 600px;
+  margin: 40px auto;
+  border-radius: 4px;
+  box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
+  transition: .5s ease;
+  background:#fff;
+}
 .form:hover {
 	box-shadow: 0px 0px 40px 16px rgba(18,18,18,1.00);
 	}
@@ -36,7 +44,6 @@ a:hover {
   list-style: none;
   padding: 0;
   margin: 0 0 40px 0;
-  
 }
 .tab-group:after {
   content: "";
@@ -53,6 +60,7 @@ a:hover {
   float: left;
   width: 50%;
   text-align: center;
+  cursor: pointer;
   transition: .5s ease;
 }
 .tab-group li a:hover {
@@ -73,9 +81,6 @@ h1 {
   color: #fff;
   font-weight: 300;
   margin: 0 0 40px;
-  font-size: bold;
-  font-weight: 600;
-  
 }
 
 label {
@@ -155,7 +160,6 @@ input:focus{
   background: #1ab188;
   color: #ffffff;
   transition: all 0.5s ease;
-  cursor: pointer;
 }
 .button:hover, .button:focus {
   background: #179b77;
