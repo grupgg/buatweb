@@ -1,0 +1,4 @@
+function say(){
+	alert(" SELAMAT ANDA BERHASIL TERDAFTAR DALAM AKUN KAMI ");
+	
+}
