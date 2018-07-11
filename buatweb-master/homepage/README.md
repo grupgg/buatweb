@@ -1,2 +1,0 @@
-# buatweb
-buat web ea
